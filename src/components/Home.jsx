@@ -4,6 +4,7 @@ import Hero from './Hero'
 import ABout from './ABout'
 import Education from './Education'
 import Services from './Services'
+import Galler from './Galler'
 function Home() {
 
   return (
@@ -12,6 +13,7 @@ function Home() {
         <ABout/>
         <Education/>
         <Services/>
+        <Galler/>
     </div>
   )
 }

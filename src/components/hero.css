@@ -44,3 +44,18 @@
     transform: scale(1.06);
     cursor: pointer;
 }
+.gallery-card{
+    position: relative;
+}
+.gallery-card .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px;
+    background: linear-gradient(#00000002, #000);
+}
