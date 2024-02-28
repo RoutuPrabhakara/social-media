@@ -2,7 +2,7 @@ import React from 'react'
 
 function ABout() {
   return (
-    <section className='about-conatiner container-fluid p-2 p-md-4' id='about'>
+    <section className='about-conatiner container-fluid p-2 p-md-4 py-5' id='about'>
     <div className="row align-items-center">
         <div className="col-12 col-md-5 mb-3">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/zlII0DtsJ2o?si=xbHh7QMdoQgtm93N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='w-100 rounded-3 bg-dark'></iframe>

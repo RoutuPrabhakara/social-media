@@ -1,4 +1,5 @@
 import React from 'react'
+import Slider from 'react-slick'
 
 function Scroller() {
   return (
@@ -16,6 +17,7 @@ function Scroller() {
             <span>YSRCP SOCIAL MEDIA KADIRI</span>
             <span>YSRCP SOCIAL MEDIA KADIRI</span>
         </div>
+        
     </marquee>
   </div>
   )

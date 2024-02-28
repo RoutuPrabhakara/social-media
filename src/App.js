@@ -7,7 +7,7 @@ import './App.css'
 function App() {
   
   return (
-    <div>
+    <div className='overflow-hidden'>
      <BrowserRouter>
      <Header/>
      <Routes>

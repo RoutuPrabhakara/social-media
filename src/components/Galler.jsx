@@ -1,91 +1,64 @@
 import React from 'react'
-import './hero.css'
- const data = [
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
+import ImageGallery from "react-image-gallery";
+import image1 from '../images/image1.jpg'
+import image2 from '../images/image2.jpg'
+import image3 from '../images/image3.jpg'
+import image4 from '../images/image4.jpg'
+import image5 from '../images/image5.jpg'
+import image6 from '../images/image6.jpg'
+import image7 from '../images/image7.jpg'
+import image8 from '../images/image8.jpg'
+import image9 from '../images/image9.jpg'
+import image10 from '../images/image10.jpg'
 
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
-    {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
-    },
 
+const images = [
     {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
+      original: image1,
+      thumbnail: image1,
     },
     {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
+        original: image2,
+        thumbnail: image2,
     },
     {
-        image:"https://th.bing.com/th/id/OIP.CnabZMxgevzUdRFbe7hHHwHaE8?rs=1&pid=ImgDetMain",
-        desc:" Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-        title:"heading"
+        original: image3,
+      thumbnail: image3,
     },
-
- ]
+    {
+        original: image4,
+      thumbnail: image4,
+    },
+    {
+        original: image5,
+      thumbnail: image5,
+    },
+    {
+        original: image6,
+      thumbnail: image6,
+    },
+    {
+        original: image7,
+      thumbnail: image7,
+    },
+    {
+        original: image8,
+      thumbnail: image8,
+    },
+    {
+        original: image9,
+      thumbnail: image9,
+    },
+    {
+        original: image10,
+      thumbnail: image10,
+    },
+  ];
 function Galler() {
   return (
-    <div className='container-fluid gallery bg-dark p-2 p-md-5'>
-        <h1 className='fs-1 text-white'>our Social Services</h1>
-        <p className="lead text-white mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque repellendus voluptatibus dignissimos doloribus, explicabo corrupti neque ratione alias reiciendis iure dolorem esse numquam totam earum magni saepe perferendis eius. Dolores.</p>
-        <div className="row">
-           {
-            data.map((item, index)=>(
-                <div className="col-12 col-md-3">
-                    <div className="gallery-card mb-3 overflow-hidden">
-                    <img src={item.image} alt="" className="w-100 rounded-3" />
-                    <div className="text rounded-3">
-                        <h1 className="fs-4 text-white">{item.title}</h1>
-                        <small className="small text-white">{item.desc}</small>
-                    </div>
-                    </div>
-
-                </div>
-            ))
-           }
-        </div>
+    <div className='gallery bg1 p-2 p-md-5 py-5 '>
+        <h1 className="text-center display-3 fw-bold mb-5">Gallery</h1>
+        <ImageGallery items={images} />
     </div>
   )
 }

@@ -1,0 +1,9 @@
+.video iframe{
+    height: 80vh;
+    object-fit: cover !important;
+}
+@media (max-width:768px){
+    .video iframe{
+        height: 300px;
+    }
+}
