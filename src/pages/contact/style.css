@@ -1,0 +1,49 @@
+.banner {
+    min-height: 40vh;
+    background: linear-gradient( transparent, #000000fa), url(https://static.vecteezy.com/system/resources/previews/000/694/606/original/abstract-colorful-geometric-banner-template-background-vector.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.c-card-main {
+    min-height: 200px;
+    color: #fff;
+
+}
+
+.contact-card {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.c-card-main:nth-child(1) {
+    background-color: #41B06E;
+}
+
+.c-card-main:nth-child(2) {
+    background-color: #DD5746;
+}
+
+.c-card-main:nth-child(3) {
+    background-color: #C08B5C;
+
+}
+
+.title {
+    text-transform: uppercase;
+}
+.subtitle{
+    color: gray;
+    text-transform: uppercase;
+}
+.contact-form .form-control{
+    border: 1px solid gray !important;
+    border-radius: 3px !important;
+}
+.contact-form button{
+    min-width: 200px;
+}

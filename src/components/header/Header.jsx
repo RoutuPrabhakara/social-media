@@ -10,35 +10,35 @@ function Header() {
         <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src={logo} alt="YSR logo"  className='logo'/></a>
+    <a class="navbar-brand" href="/"><img src={logo} alt="YSR logo"  className='logo'/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="/about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link" href="/events">Events</a>
         </li>
-        <li class="nav-item">
+        {/* <li class="nav-item">
           <a class="nav-link" href="#">Get Involved</a>
+        </li> */}
+        <li class="nav-item">
+          <a class="nav-link" href="/gallery">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Gallery</a>
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="/blogs">Blogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blogs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Donate</a>
+          <a class="nav-link" href="/donate">Donate</a>
         </li>
         
       </ul>

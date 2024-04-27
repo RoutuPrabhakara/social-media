@@ -1,0 +1,44 @@
+.gallery img{
+    object-fit: cover;
+}
+.modal-body img{
+    width: 100%;
+}
+.modal{
+    backdrop-filter: blur(5px) !important;
+    background-color: #00000071 !important;
+}
+.modal-body{
+    position: relative;
+}
+.prev{
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.next{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.toggle-btns{
+    border: none;
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(0, 141, 42);
+    color: #fff;
+}
+.modal img{
+    height: 400px;
+}
+.noprev, .nonext{
+    opacity: 0.5;
+}

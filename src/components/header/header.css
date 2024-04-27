@@ -3,7 +3,8 @@
 }
 .logo{
     width: 50px;
-    mix-blend-mode: multiply;
+    /* mix-blend-mode: multiply; */
+    border-radius: 100px;
 }
 .header{
     position: sticky;

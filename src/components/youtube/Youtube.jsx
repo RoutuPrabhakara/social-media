@@ -3,24 +3,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import  './style.css'
+import youtubedata from '../../data/youtube';
 
-const data = [
-    {
-        video:"https://www.youtube.com/embed/4O2d7i4eguo?si=e2W_eCSkZHrP8UgS"
-    },
-    {
-        video:"https://www.youtube.com/embed/yzNsdCX2ep0?si=j0E6iDYeacb3p8bj"
-    },
-    {
-        video:"https://www.youtube.com/embed/4O2d7i4eguo?si=e2W_eCSkZHrP8UgS"
-    },
-    {
-        video:"https://www.youtube.com/embed/4O2d7i4eguo?si=e2W_eCSkZHrP8UgS"
-    },
-    {
-        video:"https://www.youtube.com/embed/4O2d7i4eguo?si=e2W_eCSkZHrP8UgS"
-    }
-]
+
 function Youtube() {
     const settings = {
         dots: true,
@@ -40,7 +25,7 @@ function Youtube() {
         <p className='fs-5 text-center text-secondary'>Poola sreenivasulu reddy social interviews</p>
         <Slider {...settings}>
             {
-            data.map((item, index)=>(
+            youtubedata.map((item, index)=>(
                 <div className="video p-2 p-md-5">
                    <iframe width="560" height="315" src={item.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen className='w-100 rounded-5'></iframe>
                 </div>

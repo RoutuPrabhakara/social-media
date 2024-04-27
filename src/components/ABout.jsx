@@ -16,7 +16,7 @@ function ABout() {
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum.
             </p>
           <div className="d-flex gap-2 mt-4">
-            <button className="btn btn-success  p-2 fs-4 px-5 rounded-pill">Contact</button>
+            <a href='/contact' className="btn btn-success  p-2 fs-4 px-5 rounded-pill">Contact</a>
           </div>
         </div>
     </div>
