@@ -11,11 +11,11 @@ function Footer() {
             <div className="col-md-3 mb-3">
                 <h1 className="fs-3 fw-bold text-white subtitle f-heading">Quick Links</h1>
                 <ul className="p-0 text-white" type='none'>
-                    <li className="fs-6 mb-2"><a href="" className='text-white nav-link'>About Us</a></li>
-                    <li className="fs-6 mb-2"><a href="" className='text-white nav-link'>Contact Us</a></li>
-                    <li className="fs-6 mb-2"><a href="" className='text-white nav-link'>Events</a></li>
-                    <li className="fs-6 mb-2"><a href="" className='text-white nav-link'> Gallery</a></li>
-                    <li className="fs-6 mb-2"><a href="" className='text-white nav-link'> Donate</a></li>
+                    <li className="fs-6 mb-2"><a href="/about" className='text-white nav-link'>About Us</a></li>
+                    <li className="fs-6 mb-2"><a href="/contact" className='text-white nav-link'>Contact Us</a></li>
+                    <li className="fs-6 mb-2"><a href="/event" className='text-white nav-link'>Events</a></li>
+                    <li className="fs-6 mb-2"><a href="/gallery" className='text-white nav-link'> Gallery</a></li>
+                    <li className="fs-6 mb-2"><a href="/donate" className='text-white nav-link'> Donate</a></li>
                 </ul>
             </div>
 
@@ -28,10 +28,10 @@ function Footer() {
                 </ul>
 
                 <div className="icons d-flex gap-2 text-white justify-content-between">
-                    <i className='bi bi-facebook fs-3'></i>
-                    <i className='bi bi-instagram fs-3'></i>
-                    <i className='bi bi-youtube fs-3'></i>
-                    <i className='bi bi-whatsapp fs-3'></i>
+                   <a href=""> <i className='bi bi-facebook fs-3'></i></a>
+                  <a href="">  <i className='bi bi-instagram fs-3'></i></a>
+                   <a href=""> <i className='bi bi-youtube fs-3'></i></a>
+                   <a href=""> <i className='bi bi-whatsapp fs-3'></i></a>
                 </div>
             </div>
         </div>
