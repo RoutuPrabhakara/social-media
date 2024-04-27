@@ -8,6 +8,7 @@ import Gallery from './pages/contact/gallery/Gallery'
 import About from './pages/about/About'
 import Events from './pages/events/Events'
 import Footer from './components/Footer'
+import Donate from './pages/donate/Donate'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/events' element={<Events/>}/>
+      <Route path='/donate' element={<Donate/>}/>
      </Routes>
      <Footer/>
      </BrowserRouter>

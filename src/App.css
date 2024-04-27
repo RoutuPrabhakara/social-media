@@ -40,3 +40,8 @@ footer .logo{
 .f-heading{
   width: fit-content;
 }
+marquee img{
+  width: 80px !important;
+  height: 80px;
+
+}
